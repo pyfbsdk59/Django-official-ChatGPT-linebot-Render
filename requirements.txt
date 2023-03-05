@@ -1,4 +1,4 @@
 line-bot-sdk==1.8.0
 Django==2.0
 openai==0.27.0
-Gunicorn
+gunicorn
