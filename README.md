@@ -21,11 +21,13 @@ https://github.com/howarder3/GPT-Linebot-python-flask-on-vercel<br><br>
 https://github.com/vercel/examples/tree/main/python/django
 
 
-### 2. 本以為只要把Flask的部分改為Django部分即可，但花了兩天，遇到了許多坑。主要就是因為使用Django會超過Vercel Function的50MB限制，嘗試了許多版本終於成功。
+### 2. 和Vercel版本的差別，注意Start Command要改為gunicorn config.wsgi:application來啟動。（一個坑）
+
+<div align="center">
+  <img src="demo/demo_g.png" width="600"/>
+</div>
 
 
-### 3. 主要就是裝了openapi的依賴後容量會大增。故在這版本我們只使用Django 2.0版本減少容量。我試過Django 3.2以上版本會Build失敗。若沒有其他特別需求，建議使用Django 2.0版本即可。也歡迎測試其他版本。
-
-### 4. openai的依賴必須使用0.27.0以上版本。
+### 3. openai的依賴必須使用0.27.0以上版本。
 ------
 ### Line和openai api設置請參考： https://github.com/howarder3/GPT-Linebot-python-flask-on-vercel
