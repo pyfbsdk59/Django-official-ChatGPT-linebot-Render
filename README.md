@@ -20,7 +20,7 @@
 https://github.com/howarder3/GPT-Linebot-python-flask-on-vercel
 
 
-#### 2. 本專案因部屬在Render上，所以程式碼和Vercel版本些許不同，也必須使用Flask和設定webhook。Render網站中，選擇新增「Web Services」，可用github帳號匯入此專案，可先fork到自己的帳號，然後設定自己的名稱和選擇免費free方案。記得按下方「Advanced」，設定環境變數。
+#### 2. 本專案因部屬在Render上，所以程式碼和Vercel版本些許不同。Render網站中，選擇新增「Web Services」，可用github帳號匯入此專案，可先fork到自己的帳號，然後設定自己的名稱和選擇免費free方案。記得按下方「Advanced」，設定環境變數。
 
 
 <div align="center">
@@ -31,12 +31,12 @@ https://github.com/howarder3/GPT-Linebot-python-flask-on-vercel
   <img src="demo/demo2r.png" width="700"/>
 </div>
 
-#### 3. 必須在Render的Environment Variables設定3個環境變數，分別是OPENAI_API_KEY和TELEGRAM_BOT_TOKEN。然後開始部屬，可能要花上一些時間。成功後複製自己的URL貼到line developer的Webhook URL來做設定和測試。例如：
+#### 3. 必須在Render的Environment Variables設定3個環境變數，分別是OPENAI_API_KEY和LINE_CHANNEL_SECRET和LINE_CHANNEL_ACCESS_TOKEN。然後開始部屬，可能要花上一些時間。成功後複製自己的URL貼到line developer的Webhook URL來做設定和測試。例如：
 
 https://xxx.onrender.com/
 
 <div align="center">
-  <img src="demo/demo3r.png" width="700"/>
+  <img src="demo/demo3r1.png" width="700"/>
 </div>
 
 
