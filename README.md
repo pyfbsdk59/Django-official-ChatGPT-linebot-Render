@@ -41,7 +41,7 @@ https://xxx.onrender.com/
 
 
 
-### 4. 和Vercel版本的差別，注意Start Command要改為gunicorn config.wsgi:application來啟動。（一個坑）
+### 4. 和Vercel版本的差別，注意Start Command要改為gunicorn config.wsgi:application來啟動。（一個坑，可以省你很多時間）
 
 <div align="center">
   <img src="demo/demo_g.png" width="600"/>
