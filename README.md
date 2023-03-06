@@ -33,7 +33,7 @@ https://github.com/howarder3/GPT-Linebot-python-flask-on-vercel
 
 #### 3. 必須在Render的Environment Variables設定3個環境變數，分別是OPENAI_API_KEY和LINE_CHANNEL_SECRET和LINE_CHANNEL_ACCESS_TOKEN。然後開始部屬，可能要花上一些時間。成功後複製自己的URL貼到line developer的Webhook URL來做設定和測試。例如：
 
-https://xxx.onrender.com/
+https://xxx.onrender.com/callback
 
 <div align="center">
   <img src="demo/demo3r1.png" width="700"/>
